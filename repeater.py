@@ -8,7 +8,7 @@ def repeater(msg):
     new_msg = msg.text
     if (new_msg == old_msg) and ( not (new_msg in have_repeated) ):
         have_repeated.append(new_msg)
-        print(new_msg)
+#        print(new_msg)
         return new_msg
     else:
         old_msg = new_msg
